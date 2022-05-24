@@ -10,15 +10,17 @@ h1 {
 }
 
 img {
-  width: 20%;
+  width: 50%;
+  margin-top: 5%;
 }
 
 img.imgThumb {
   width: 100%;
 }
 
-.list-group-item-action {
+.list-group .list-group-item-action {
   height: 80px;
+  background: #6855db;
 }
 
 .list-group-item-action:hover {
@@ -29,6 +31,7 @@ img.imgThumb {
 .list-group-item {
   text-align: center;
   background: #7285db;
+  padding: 20px;
 }
 
 .list-group-item:first-child {
@@ -42,6 +45,31 @@ img.imgThumb {
 
 .list-group {
   margin-bottom: 15%;
+}
+
+.categoryHeader {
+  margin-bottom: 5%;
+}
+
+.sides {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+div .instructions {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 5%;
+  padding-top: 2.5%;
+  background: lightgrey;
+}
+
+.instructions_ingredients {
+
+}
+
+.instructions_measures {
+
 }
 
 a:hover {
@@ -79,6 +107,7 @@ button.favButton {
   width: 25%;
   position: absolute;
   bottom: 0;
+  right: 0;
   z-index: 100;
   background: #89cd70;
   color: #fdfdfd;
